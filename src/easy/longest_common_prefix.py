@@ -14,7 +14,22 @@ from typing import List
 
 
 class Solution:
+    """
+    longestCommonPrefix
+    """
     def longestCommonPrefix(self, strs: List[str]) -> str:
+        """longestCommonPrefix
+
+        Parameters
+        ----------
+        strs : List[str]
+            [description]
+
+        Returns
+        -------
+        str
+            [description]
+        """
         if len(strs) == 1:
             return strs[0]
 
