@@ -22,7 +22,4 @@ jobs:
         pylint src --exit-zero --output-format=text . | tee ./pylint.log || pylint-exit $?
         PYLINT_SCORE=$(sed -n 's/^Your code has been rated at \([-0-9.]*\)\/.*/\1/p' ./pylint.log)
         echo $PYLINT_SCORE
-        if [[ $PYLINT_SCORE -lt 9 ]]
-        then
-          exit 1
-        fi
+        if [[ $PYLINT_SCORE -lt 9 ]]; then exit 1; fi;
