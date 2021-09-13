@@ -9,4 +9,5 @@ Resolved Problems from LeetCode.com
 ## Problems
 
 [1. Two Sum](https://github.com/albul-k/leetcode/blob/main/src/easy/two_sum.py)
+
 [9. Palindrome Number](https://github.com/albul-k/leetcode/blob/main/src/easy/palindrome_number.py)
