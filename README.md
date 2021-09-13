@@ -16,6 +16,8 @@ Resolved Problems from LeetCode.com
 
 [9. Palindrome Number](https://github.com/albul-k/leetcode/blob/main/src/easy/palindrome_number.py)
 
+[12. Integer to Roman](https://github.com/albul-k/leetcode/blob/main/src/medium/integer_to_roman.py)
+
 [13. Roman to Integer](https://github.com/albul-k/leetcode/blob/main/src/easy/roman_to_integer.py)
 
 [14. Longest Common Prefix](https://github.com/albul-k/leetcode/blob/main/src/easy/longest_common_prefix.py)
