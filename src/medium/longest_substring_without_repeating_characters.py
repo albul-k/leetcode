@@ -1,18 +1,38 @@
 """
+Url: https://leetcode.com/problems/longest-substring-without-repeating-characters/
+Author: Konstantin Albul
+
 Given a string s, find the length of the longest substring without repeating characters.
 
 Constraints:
-
 * 0 <= s.length <= 5 * 104
 * s consists of English letters, digits, symbols and spaces.
-
 """
 
+
+# pylint: disable=too-few-public-methods
 class Solution:
-    def lengthOfLongestSubstring(self, s: str) -> int:
-        if s == "":
+    """solution
+    """
+
+    # pylint: disable=no-self-use
+    def length_of_longest_substring(self, s_str: str) -> int:
+        """longest-substring-without-repeating-characters
+
+        Parameters
+        ----------
+        s_str : str
+            substring
+
+        Returns
+        -------
+        int
+            lenthg of longest substring
+        """
+
+        if s_str == "":
             return 0
-        elif len(set(s)) == 1:
+        if len(set(s_str)) == 1:
             return 1
 
         substr: str = ''
@@ -20,19 +40,19 @@ class Solution:
         counter: int = 0
         end: bool = False
         chars: set = set()
-        for start in range(0, len(s)):
-            for c in s[start::]:
-                if c not in chars:
-                    chars.add(c)
-                    substr += c
+        for start in range(0, len(s_str)):
+            for char in s_str[start::]:
+                if char not in chars:
+                    chars.add(char)
+                    substr += char
                     counter += 1
                 else:
-                    if s[start::].replace(substr, '') == '':
+                    if s_str[start::].replace(substr, '') == '':
                         end = True
                         break
 
                     chars.clear()
-                    chars.add(c)
+                    chars.add(char)
                     counter = 1
 
                 if counter > substr_length:
@@ -51,10 +71,15 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
 
-    assert solution.lengthOfLongestSubstring("abcabcbb") == 3
-    assert solution.lengthOfLongestSubstring("bbbbb") == 1
-    assert solution.lengthOfLongestSubstring("pwwkew") == 3
-    assert solution.lengthOfLongestSubstring("") == 0
-    assert solution.lengthOfLongestSubstring("dvdf") == 3
-    assert solution.lengthOfLongestSubstring("asjrgapa") == 6
-    assert solution.lengthOfLongestSubstring("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ ") == 95
+    assert solution.length_of_longest_substring("abcabcbb") == 3
+    assert solution.length_of_longest_substring("bbbbb") == 1
+    assert solution.length_of_longest_substring("pwwkew") == 3
+    assert solution.length_of_longest_substring("") == 0
+    assert solution.length_of_longest_substring("dvdf") == 3
+    assert solution.length_of_longest_substring("asjrgapa") == 6
+
+    TEST_STR = "abcdefghijklmnopqrstuvwxyz"
+    TEST_STR += "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    TEST_STR += "0123456789"
+    TEST_STR += "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ "
+    assert solution.length_of_longest_substring(TEST_STR * 10) == 95
