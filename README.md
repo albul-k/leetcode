@@ -10,6 +10,8 @@ Resolved Problems from LeetCode.com
 
 [1. Two Sum](https://github.com/albul-k/leetcode/blob/main/src/easy/two_sum.py)
 
+[2. Add Two Numbers](https://github.com/albul-k/leetcode/blob/main/src/medium/add_two_numbers.py)
+
 [3. Longest Substring Without Repeating Characters](https://github.com/albul-k/leetcode/blob/main/src/medium/longest_substring_without_repeating_characters.py)
 
 [7. Reverse Integer](https://github.com/albul-k/leetcode/blob/main/src/easy/reverse_integer.py)
