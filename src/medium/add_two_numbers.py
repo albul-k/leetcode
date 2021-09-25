@@ -48,7 +48,7 @@ class Solution:
         self,
         l_1: Optional[ListNode],
         l_2: Optional[ListNode]) -> Optional[ListNode]:
-        """add_two_numbers
+        """add-two-numbers
 
         Parameters
         ----------
