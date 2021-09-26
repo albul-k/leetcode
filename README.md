@@ -14,6 +14,8 @@ Resolved Problems from LeetCode.com
 
 [3. Longest Substring Without Repeating Characters](https://github.com/albul-k/leetcode/blob/main/src/medium/longest_substring_without_repeating_characters.py)
 
+[5. Longest Palindromic Substring](https://github.com/albul-k/leetcode/blob/main/src/medium/longest_palindromic_substring.py)
+
 [7. Reverse Integer](https://github.com/albul-k/leetcode/blob/main/src/easy/reverse_integer.py)
 
 [9. Palindrome Number](https://github.com/albul-k/leetcode/blob/main/src/easy/palindrome_number.py)
