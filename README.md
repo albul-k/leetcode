@@ -25,3 +25,5 @@ Resolved Problems from LeetCode.com
 [13. Roman to Integer](https://github.com/albul-k/leetcode/blob/main/src/easy/roman_to_integer.py)
 
 [14. Longest Common Prefix](https://github.com/albul-k/leetcode/blob/main/src/easy/longest_common_prefix.py)
+
+[929. Unique Email Addresses](https://github.com/albul-k/leetcode/blob/main/src/easy/unique_email_addresses.py)
