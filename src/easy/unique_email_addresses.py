@@ -40,7 +40,7 @@ class Solution:
 
     # pylint: disable=no-self-use
     def num_unique_emails(self, emails: List[str]) -> int:
-        """num_unique_emails
+        """Unique Email Addresses
 
         Parameters
         ----------
