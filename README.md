@@ -18,6 +18,8 @@ Resolved Problems from LeetCode.com
 
 [7. Reverse Integer](https://github.com/albul-k/leetcode/blob/main/src/easy/reverse_integer.py)
 
+[8. String to Integer (atoi)](https://github.com/albul-k/leetcode/blob/main/src/medium/string_to_integer_atoi.py)
+
 [9. Palindrome Number](https://github.com/albul-k/leetcode/blob/main/src/easy/palindrome_number.py)
 
 [12. Integer to Roman](https://github.com/albul-k/leetcode/blob/main/src/medium/integer_to_roman.py)
