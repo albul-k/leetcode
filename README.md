@@ -28,6 +28,8 @@ Resolved Problems from LeetCode.com
 
 [14. Longest Common Prefix](https://github.com/albul-k/leetcode/blob/main/src/easy/longest_common_prefix.py)
 
+[70. Climbing Stairs](https://github.com/albul-k/leetcode/blob/main/src/easy/climbing_stairs.py)
+
 [725. Split Linked List in Parts](https://github.com/albul-k/leetcode/blob/main/src/medium/split_linked_list_in_parts.py)
 
 [922. Sort Array By Parity II](https://github.com/albul-k/leetcode/blob/main/src/easy/sort_array_by_parity_ii.py)
