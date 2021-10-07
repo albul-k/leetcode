@@ -30,6 +30,8 @@ Resolved Problems from LeetCode.com
 
 [70. Climbing Stairs](https://github.com/albul-k/leetcode/blob/main/src/easy/climbing_stairs.py)
 
+[79. Word Search](https://github.com/albul-k/leetcode/blob/main/src/medium/word_search.py)
+
 [442. Find All Duplicates in an Array](https://github.com/albul-k/leetcode/blob/main/src/medium/find_all_duplicates_in_an_array.py)
 
 [725. Split Linked List in Parts](https://github.com/albul-k/leetcode/blob/main/src/medium/split_linked_list_in_parts.py)
