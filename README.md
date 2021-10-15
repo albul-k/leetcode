@@ -34,6 +34,8 @@ Resolved Problems from LeetCode.com
 
 [208. Implement Trie (Prefix Tree)](https://github.com/albul-k/leetcode/blob/main/src/medium/implement-trie-prefix-tree.py)
 
+[279. Perfect Squares](https://github.com/albul-k/leetcode/blob/main/src/medium/perfect_squares.py)
+
 [442. Find All Duplicates in an Array](https://github.com/albul-k/leetcode/blob/main/src/medium/find_all_duplicates_in_an_array.py)
 
 [725. Split Linked List in Parts](https://github.com/albul-k/leetcode/blob/main/src/medium/split_linked_list_in_parts.py)
