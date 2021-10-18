@@ -43,3 +43,5 @@ Resolved Problems from LeetCode.com
 [922. Sort Array By Parity II](https://github.com/albul-k/leetcode/blob/main/src/easy/sort_array_by_parity_ii.py)
 
 [929. Unique Email Addresses](https://github.com/albul-k/leetcode/blob/main/src/easy/unique_email_addresses.py)
+
+[993. Cousins in Binary Tree](https://github.com/albul-k/leetcode/blob/main/src/easy/cousins_in_binary_tree.py)
