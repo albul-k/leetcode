@@ -38,6 +38,8 @@ Resolved Problems from LeetCode.com
 
 [442. Find All Duplicates in an Array](https://github.com/albul-k/leetcode/blob/main/src/medium/find_all_duplicates_in_an_array.py)
 
+[496. Next Greater Element I](https://github.com/albul-k/leetcode/blob/main/src/easy/next_greater_element_i.py)
+
 [725. Split Linked List in Parts](https://github.com/albul-k/leetcode/blob/main/src/medium/split_linked_list_in_parts.py)
 
 [922. Sort Array By Parity II](https://github.com/albul-k/leetcode/blob/main/src/easy/sort_array_by_parity_ii.py)
