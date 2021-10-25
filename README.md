@@ -34,6 +34,8 @@ Resolved Problems from LeetCode.com
 
 [151. Reverse Words in a String](https://github.com/albul-k/leetcode/blob/main/src/medium/reverse_words_in_a_string.py)
 
+[155. Min Stack](https://github.com/albul-k/leetcode/blob/main/src/easy/min_stack.py)
+
 [208. Implement Trie (Prefix Tree)](https://github.com/albul-k/leetcode/blob/main/src/medium/implement-trie-prefix-tree.py)
 
 [279. Perfect Squares](https://github.com/albul-k/leetcode/blob/main/src/medium/perfect_squares.py)
